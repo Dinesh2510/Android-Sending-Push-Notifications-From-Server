@@ -32,6 +32,7 @@ public class FirebaseMessageReceiver extends FirebaseMessagingService {
     private static final int REQUEST_NOTIFICATION_REPLAY = 101;
     private static final String MESSAGE_KEY = "message_key";
 
+
     @Override
     public void onNewToken(String s) {
         super.onNewToken(s);
